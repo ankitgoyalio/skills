@@ -2,5 +2,4 @@ interface:
   display_name: "Product Comparison"
   short_description: "Compare products with evidence-led scorecards"
   default_prompt: "Use $product-comparison to compare these products for my needs and recommend the best-supported choice."
-policy:
-  allow_implicit_invocation: true
+  

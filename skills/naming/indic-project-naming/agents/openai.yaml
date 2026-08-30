@@ -1,0 +1,6 @@
+interface:
+  display_name: "Indic Project Naming"
+  short_description: "Name software projects with defensible Indic roots"
+  default_prompt: "Use $indic-project-naming to develop a premium Indic-inspired name for my software project."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cook With What You Have"
+  short_description: "Find YouTube recipes for ingredients on hand"
+  default_prompt: "Use $cook-with-what-you-have to suggest a YouTube-sourced recipe based on the ingredients I have."

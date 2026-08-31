@@ -1,0 +1,42 @@
+{
+  "name": "ankitgoyal-skills",
+  "owner": {
+    "name": "Ankit Goyal"
+  },
+  "description": "A collection of reusable agent skills grouped by purpose.",
+  "plugins": [
+    {
+      "name": "code",
+      "source": "./",
+      "description": "Skills for software development workflows.",
+      "skills": [
+        "./skills/code/git-commit-message",
+        "./skills/code/pull-request-message"
+      ]
+    },
+    {
+      "name": "food",
+      "source": "./",
+      "description": "Skills for cooking and recipe planning.",
+      "skills": [
+        "./skills/food/cook-with-what-you-have"
+      ]
+    },
+    {
+      "name": "naming",
+      "source": "./",
+      "description": "Skills for naming projects and products.",
+      "skills": [
+        "./skills/naming/indic-project-naming"
+      ]
+    },
+    {
+      "name": "shopping",
+      "source": "./",
+      "description": "Skills for researching and comparing purchases.",
+      "skills": [
+        "./skills/shopping/product-comparison"
+      ]
+    }
+  ]
+}

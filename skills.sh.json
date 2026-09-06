@@ -6,6 +6,7 @@
       "title": "Code",
       "description": "Skills for software development workflows.",
       "skills": [
+        "app-ux-writing",
         "git-commit-message",
         "pull-request-message"
       ]

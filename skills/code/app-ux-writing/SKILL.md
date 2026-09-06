@@ -13,6 +13,8 @@ Match the requested work: plan a flow, draft copy, review existing language, nam
 
 Inspect the supplied screens, flow, source strings, nearby controls, existing writing guidance, and terminology as needed. Establish the audience, user goal, platform, actual behavior, and relevant states. For a single label, use its immediate context; for a flow, follow its entry, decisions, and outcome. Reuse available context and ask only about gaps that materially affect the result.
 
+Look for `WORD_LIST.md` in the project root or the app's documentation. If available, read the list applicable to the app before drafting, reviewing, naming, or implementing copy, and use it as the terminology reference. If absent, follow existing writing guidance and established UI terms; its absence does not block the task.
+
 Ground promises in supplied requirements or implementation. Confirm facts such as deletion scope, retained access, timing, permissions, and privacy before stating them. When behavior is unknown, flag the specific gap and keep dependent wording provisional. Desired feelings of security are not evidence of encryption or privacy guarantees.
 
 ## Design with PACE
@@ -31,7 +33,19 @@ When establishing or changing a voice, or resolving a tone mismatch, read [Voice
 1. Express the useful message accurately, in the app's vocabulary. Lead with the benefit when it helps explain a requested action; lead with the event, consequence, or instruction when that is the person's immediate need.
 2. Remove filler, repeated ideas, and unsupported claims about ease or speed. Preserve modifiers that explain behavior, detail needed for recovery or consent, and repetition that keeps terminology unambiguous. Warmth and celebration can earn their space when they fit the moment.
 3. Read the heading and actions alone, then the complete screen and adjacent steps in sequence. Check conversational rhythm as if reading aloud, ambiguity, repetitive wording, and whether the next step matches what the copy promises.
-4. Check related uses of a changed term within scope. Reuse the project's word list; when establishing terminology, add or propose a focused entry with the preferred term, alternatives to avoid for that concept, and its meaning. A short list of real decisions is sufficient.
+4. Check related uses of a changed term within scope against the word list. When establishing terminology, add or propose a focused entry using the format below.
+
+## Word list
+
+Use three columns in `WORD_LIST.md`:
+
+| Use | Avoid | Definition |
+| --- | --- | --- |
+| Saved Trails | Favorites, Bookmarks | Trails the person saves to find later. Saving does not download an offline map. |
+
+The row illustrates the format; use the app's actual terms and behavior. `Use` records the preferred term, including button labels where useful. `Avoid` lists alternatives for that same concept, not words banned throughout the app. `Definition` explains the concept and any distinction needed to apply it correctly. Preserve meaningful differences such as removing a download versus deleting the original recording.
+
+Follow an existing list's equivalent column headings and conventions. When terminology maintenance is in scope, update the applicable `WORD_LIST.md`; otherwise propose the entry with the copy. If no word list exists, create one only when establishing shared terminology is part of the task. A short list of real decisions is sufficient.
 
 ## Implement when requested
 

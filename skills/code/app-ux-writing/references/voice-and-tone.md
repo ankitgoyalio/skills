@@ -30,4 +30,4 @@ The 2024 talk allows extra words for purposeful warmth; the 2025 talk removes wo
 
 Evaluate adjectives, adverbs, apologies, pleasantries, and punctuation individually. Keep them when they convey necessary behavior or serve an appropriate tone. Avoid blanket deletion rules that flatten the voice or change meaning.
 
-Keep vocabulary decisions alongside the project's existing writing guidance. Useful word-list fields are preferred term, alternatives for the same concept, definition, and a usage example when needed. Preserve meaningful distinctions: “remove download” and “delete recording” should remain different when their effects differ.
+Keep vocabulary decisions in the applicable `WORD_LIST.md`, following the word-list guidance in the main skill.

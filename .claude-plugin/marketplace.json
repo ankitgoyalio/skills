@@ -24,6 +24,14 @@
       ]
     },
     {
+      "name": "knowledge",
+      "source": "./",
+      "description": "Skills for reflection and personal knowledge management.",
+      "skills": [
+        "./skills/knowledge/reflect-on-source"
+      ]
+    },
+    {
       "name": "naming",
       "source": "./",
       "description": "Skills for naming projects and products.",

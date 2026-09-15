@@ -15,6 +15,8 @@ Establish the destination from context: an existing notes system, a folder, a kn
 
 Search the destination for an earlier interview or reflection about the source. Resume its transcript, pending questions, draft, and approval state. For a destination in a Git repository, read [Git completion](references/git-completion.md) before editing.
 
+Before the interview, provide a brief, neutral orientation when the user asks for one or appears to need help recalling or navigating the source. Cover only its scope, structure, and principal claims; label this as the source's account, preserve uncertainty, and invite correction. When the user can readily give an unprompted account, begin with that account so the orientation does not anchor their interpretation.
+
 The session is established when the agreed source material is readable, the destination and its conventions are known, and existing session state has been recovered.
 
 ## Build the understanding tree

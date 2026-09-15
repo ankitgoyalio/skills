@@ -4,96 +4,83 @@ description: Develop premium, globally pronounceable Indic-inspired names for so
 disable-model-invocation: true
 ---
 
-# Indic Project Naming
+# Indic project naming
 
-Create distinctive names for software and coding projects by connecting the product's real function to defensible Indic language roots. Balance classical meaning with a modern product identity. Treat a name as a product decision, not a decorative translation exercise.
+Develop a software project's name through a **naming tree**: the product truth branches into the meaning the name should carry, then voice and word shape, then viable names, then validation and selection. Treat the name as a product decision grounded in defensible Indic language roots, not a decorative translation.
 
-## Discover the naming brief
+## Work the naming tree
 
-Begin every naming request with one concise batch of focused questions. Do not generate candidates in the same response. Omit facts the user has already supplied, but ask about or explicitly confirm every unresolved decision that could materially change the names:
+Work in **rounds**. The **frontier** is every decision whose prerequisites are settled: questions the user can answer now without guessing about an answer still open. Ask the whole frontier in one round, number each question, and recommend an answer. Then wait.
 
-- what the project does and the central idea the name should express;
-- primary users, platform, and technical ecosystem;
-- desired personality beyond the defaults of premium, modern, and globally approachable;
-- preferred name length, word shape, or relationship to the product category;
-- words, sounds, cultural associations, or naming styles to avoid;
-- whether repo, package, domain, or broader collision checks are wanted.
+Format each question like this:
 
-Ask for examples only when they would reveal a preference the brief does not already capture. When the user has no preference, state the assumption in the eventual result instead of extending the interview.
+```text
+❓ **Q1 — <title>:** <question and, when useful, a short set of choices>
 
-Discovery is complete when the product's purpose, intended audience, desired signal, and hard constraints are clear enough to reject an otherwise attractive name.
+➡️ **Recommendation:** <answer and brief reason>
+```
+
+Each answer reshapes the tree. Recompute the frontier and ask the next round. A decision that depends on an answer still open belongs to a later round. Omit decisions the user has already settled, and generate names immediately when the supplied brief leaves no material decisions open.
+
+The user owns preferences and tradeoffs. Facts are your job: inspect supplied project material, research linguistic claims, and run requested collision checks instead of asking the user to provide information you can find. Research may leave part of the tree waiting; continue with any independent frontier questions.
+
+The brief's branch is complete when all of these are settled well enough to reject an otherwise attractive name:
+
+- product purpose, central benefit or mechanism, users, and technical setting;
+- the signal, personality, and associations the name should carry;
+- length, sound, spelling, category relationship, and other word-shape preferences that matter;
+- excluded words, sounds, styles, and cultural territory;
+- desired scope for repository, package, web, domain, or broader collision checks.
+
+Ask for examples only when they discriminate between live branches. Recommend a sensible default when the user has no preference; once accepted, treat it as settled.
 
 ## Build the semantic territory
 
-After the user answers, reduce the brief to three to five relevant concepts such as visibility, craft, flow, coordination, speed, memory, or guardianship. Prefer concepts that describe the product's benefit or mechanism; avoid generic prestige words disconnected from the product.
+Reduce the settled brief to three to five concepts tied to the product's benefit or mechanism, such as visibility, flow, memory, craft, coordination, or guardianship. Generic prestige concepts need a concrete connection to the product to remain in the tree.
 
-Search for suitable roots and words across classical and modern Indic languages without treating one language as representative of all India. Use Sanskrit, Pali, Prakrit, or a modern Indic language when its meaning and sound genuinely fit. Favor short forms with stable romanization and a clear pronunciation for an international developer audience.
+Research suitable words and roots across the Indic languages that genuinely fit the territory. Sanskrit, Pali, Prakrit, and modern Indic languages are distinct sources; identify the actual language rather than presenting one tradition as representative of India. Favor compact forms with stable romanization and pronunciation that an international developer can recover from the spelling.
 
-Verify unfamiliar roots with a reputable dictionary, lexicon, or linguistic source before using them. Keep the original word, transliteration, language, and literal meaning aligned. When an etymology or cross-language interpretation remains uncertain, label it and keep that candidate out of the leading shortlist.
+Verify every unfamiliar word or root with a reputable dictionary, lexicon, or linguistic source. Keep the native form where available, transliteration, language, grammatical form, and literal meaning aligned. Label residual uncertainty and remove that candidate from the leading shortlist.
 
-## Create two honest candidate sets
+## Generate an honest slate
 
-Produce both categories and keep them visibly separate:
+Build both classes when the settled brief permits them:
 
-1. **Attested names:** existing words or established forms with a directly supportable meaning. Identify the source language and do not present a stem, altered spelling, or compound as an unchanged dictionary word.
-2. **Coined or hybrid names:** newly constructed names using identifiable Indic roots, modern technical language, or deliberate phonetic adaptation. Show the components and explain the construction. Never imply that the complete coined form is an attested word.
+- **Attested:** an existing word or established form with a directly supported meaning. Identify its source language. A stem, respelling, or new compound belongs in the other class.
+- **Coined or hybrid:** a new construction from identifiable Indic roots, deliberate phonetic adaptation, or modern technical language. Show its components and construction without implying the complete form is attested.
 
-A coined form should preserve a defensible connection to its roots, be easy to say after seeing it once, and look natural in a repository name. Avoid arbitrary syllable splicing, ornamental diacritics in the primary spelling, and misleading pseudo-etymology.
+A viable coinage keeps a defensible connection to its roots, reads naturally as a repository name, and is easy to say after seeing it once. Prefer meaningful constructions over arbitrary syllable splicing or ornamental diacritics.
 
-## Apply the naming guardrails
+Screen every name before showing it:
 
-Screen every delivered candidate for:
+- strong fit with the product and settled naming direction;
+- straightforward global spelling and pronunciation;
+- linguistic integrity and an honest provenance claim;
+- distinctive, contemporary character in developer contexts;
+- usable lowercase repository, package, and command form;
+- no reasonably detectable negative, comic, vulgar, or misleading reading in relevant Indic languages or global English;
+- no careless use of sacred, religious, caste, ethnic, political, honorific, or community-specific vocabulary;
+- no implication that one language or tradition is pan-Indian;
+- no confusing similarity to a prominent software project, company, or developer tool found during the agreed screen.
 
-- straightforward spelling and pronunciation for a global audience;
-- an obvious or easily explained relationship to the product;
-- premium, contemporary tone without relying on grandiose claims;
-- accidental negative, comic, vulgar, or misleading readings in widely spoken Indic languages and global English where reasonably detectable;
-- religious, sacred, caste, ethnic, political, or community-specific associations that could make an ordinary software name exclusionary or trivializing;
-- overclaiming a pan-Indian identity from one language or tradition;
-- confusing similarity to prominent software projects, companies, or developer tools when known.
+Prefer culturally neutral territory for ordinary developer tooling. Explore identity-linked or sacred territory only when the user explicitly chooses it and the context supports respectful use. Remove a materially compromised name rather than explaining the concern away. This screen is practical due diligence, not proof of universal acceptability or legal clearance.
 
-Prefer culturally neutral semantic roots for ordinary developer tooling. Use sacred names, deity names, scripture terms, honorifics, or identity-linked vocabulary only when the user explicitly requests that territory and the product context supports respectful use. Exclude a candidate rather than smoothing over a material concern.
+Rank survivors by product-semantic fit, pronunciation and spelling, linguistic integrity, developer-context distinctiveness, modern character, and technical usability. Meaning never compensates for poor fit or difficult pronunciation. Use qualitative tradeoffs rather than invented numerical precision.
 
-This is a practical linguistic screen, not proof that a name is bias-free, universally acceptable, legally available, or trademark-safe. State the limitation when it matters.
+## Validate the agreed scope
 
-## Rank for the product
+For requested collision checks, search the exact spelling and close phonetic variants across the agreed surfaces: GitHub, general web results, relevant package registries, and only the domain extensions the user named. Report the surfaces checked, the date, and prominent conflicts. Call it a preliminary collision screen; commercial selection may warrant a formal trademark search or professional review.
 
-Judge candidates using the brief, with particular attention to:
+## Present the round
 
-- product-semantic fit;
-- pronunciation and spelling ease;
-- linguistic integrity;
-- distinctiveness in developer contexts;
-- premium modern character;
-- repository and command-line usability, including lowercase forms and likely abbreviation.
+Return a selective slate, normally six to ten names total rather than padded spelling variants:
 
-Do not let an elegant meaning compensate for difficult pronunciation or weak product fit. Select three leading candidates only after every delivered name passes the guardrails. Explain meaningful tradeoffs rather than manufacturing numerical precision.
+1. restate the naming direction in one sentence;
+2. show attested and coined or hybrid names separately;
+3. rank the strongest three, best fit first;
+4. disclose material linguistic, cultural, pronunciation, and collision caveats;
+5. ask the next frontier: the smallest set of preference decisions needed to select, refine, or change territory.
 
-## Check collisions when requested
+For each name include its Latin-script form, simple pronunciation, class, source language and root or components, literal meaning, intended product association, concise fit, and lowercase technical form when non-obvious. Include a caveat only when material.
 
-When the user requests availability or collision checking, search the exact spelling and close phonetic variants across GitHub, general web results, and the project's relevant package registry or ecosystem. Check domains only for the extensions the user cares about.
-
-Report what was checked, the date, and any prominent conflicts. Describe the result as a preliminary collision screen. Never claim legal clearance, trademark availability, or guaranteed future availability; recommend an appropriate trademark search or professional review when the user is choosing a commercial identity.
-
-## Deliver the naming slate
-
-Return:
-
-1. a one-sentence restatement of the naming direction;
-2. the attested candidates;
-3. the coined or hybrid candidates;
-4. a top-three shortlist with the best fit first;
-5. any material linguistic, cultural, pronunciation, or collision caveats;
-6. one focused follow-up question that helps choose or refine the next round.
-
-For each candidate, include:
-
-- the primary Latin-script name and a simple pronunciation;
-- category: attested or coined/hybrid;
-- source language and root or components;
-- literal meaning and the intended product association;
-- a concise reason it fits;
-- lowercase repository form when it is not obvious;
-- a caveat only when one is material.
-
-Keep the slate selective: normally five to seven candidates per category. Favor a smaller set of credible names over variations that differ only by suffix or spelling.
+Continue rounds until the user selects a name, asks for a final shortlist, or ends the exploration. Before declaring a final recommendation, confirm that every delivered finalist passed every agreed check and that no ranking decision rests on a silently assumed preference.

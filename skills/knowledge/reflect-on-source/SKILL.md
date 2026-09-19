@@ -23,18 +23,18 @@ The session is established when the agreed source material is readable, the dest
 
 Map the interview as an **understanding tree**. Its roots are what stood out to the user and their account of the source's central claim. Each answer may branch into:
 
-- **Meaning** — what the claim means in the user's own words.
-- **Position** — what they accept, reject, or remain uncertain about, and why.
-- **Evidence** — an example, counterexample, or condition that would change their mind.
-- **Connection** — how it relates to their experience or existing knowledge.
-- **Implication** — what changes in their thinking or practice, including “nothing yet.”
+- **Meaning:** what the claim means in the user's own words.
+- **Position:** what they accept, reject, or remain uncertain about, and why.
+- **Evidence:** an example, counterexample, or condition that would change their mind.
+- **Connection:** how it relates to their experience or existing knowledge.
+- **Implication:** what changes in their thinking or practice, including “nothing yet.”
 
 The **frontier** is every useful question whose prerequisites are settled. Work the tree in **rounds**: ask the whole frontier in one numbered round, then wait for the user's answers. Recompute the tree after every round. A question that depends on an answer still open in the current round belongs to a later round.
 
 Format each question compactly:
 
 ```text
-❓ Q1 — <focused question>
+❓ Q1: <focused question>
 ```
 
 Keep each question answerable on its own. Include choices or competing interpretations when they help the user articulate a view. Offer a tentative interpretation only after eliciting the user's own account, and label it as yours.
@@ -71,4 +71,4 @@ Apply filing, status, linking, index, or activity-log changes only when requeste
 
 For a Git-backed destination, complete only the versioning operations authorized by the user, following the reference loaded earlier.
 
-The work is complete when the approved reflection and exact transcript are available at the destination, source references and affected links resolve, applicable workflow updates are finished, and the transcript still matches the conversation. Report their locations, organizational changes, unresolved questions, and—when applicable—commit and push status. Record any unfinished operation with the exact resume point.
+The work is complete when the approved reflection and exact transcript are available at the destination, source references and affected links resolve, applicable workflow updates are finished, and the transcript still matches the conversation. Report their locations, organizational changes, unresolved questions, and, when applicable, commit and push status. Record any unfinished operation with the exact resume point.

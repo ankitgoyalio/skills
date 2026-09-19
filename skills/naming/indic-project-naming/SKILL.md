@@ -15,7 +15,7 @@ Work in **rounds**. The **frontier** is every decision whose prerequisites are s
 Format each question like this:
 
 ```text
-❓ **Q1 — <title>:** <question and, when useful, a short set of choices>
+❓ **Q1: <title>:** <question and, when useful, a short set of choices>
 
 ➡️ **Recommendation:** <answer and brief reason>
 ```

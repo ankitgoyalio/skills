@@ -5,8 +5,8 @@ Skills are organized into category folders under `skills/`:
 - `code/`: software development workflows
 - `food/`: cooking and recipe planning
 - `knowledge/`: reflection and personal knowledge management
-- `naming/`: project and product naming
-- `shopping/`: purchase research and product comparison
+- `naming/`: naming projects and products
+- `shopping/`: researching and comparing purchases
 
 Every skill in these folders is part of the published collection and must appear exactly once in both catalogs:
 

@@ -1,0 +1,16 @@
+{
+  "name": "ankitgoyal-skills-repository",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate-repository.mjs",
+    "validate:claude": "claude plugin validate --strict ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "yaml": "2.9.1"
+  }
+}

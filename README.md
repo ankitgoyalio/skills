@@ -106,6 +106,16 @@ Each workflow distinguishes what is known, what is inferred, and what still need
 
 The collection is intentionally varied, but every skill follows the same principle: turn a recurring task into a transparent workflow with clear inputs, reliable evidence, and a useful finish line.
 
+## Repository validation
+
+Install the pinned dependency with `npm ci`, then run the complete repository and skills CLI checks:
+
+```bash
+npm run validate
+```
+
+Run `npm test` for the validator's failure-case tests. If the Claude Code CLI is installed, `npm run validate:claude` additionally runs its strict marketplace validation as an optional local check.
+
 ## Reference
 
 The skills split on one axis: who can invoke them. **User-invoked** skills run only when you explicitly select them. **Model-invoked** skills may be selected by you or invoked automatically by a compatible agent when the task fits.

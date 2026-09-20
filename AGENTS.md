@@ -3,6 +3,7 @@
 Skills are organized into category folders under `skills/`:
 
 - `code/`: software development workflows
+- `communication/`: professional and workplace communication
 - `food/`: cooking and recipe planning
 - `knowledge/`: reflection and personal knowledge management
 - `naming/`: naming projects and products

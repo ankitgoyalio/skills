@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/ankitgoyalio/skills)](https://skills.sh/ankitgoyalio/skills)
 
-My collection of reusable agent skills for software work, cooking, reflection, naming, and purchase research.
+My collection of reusable agent skills for software work, workplace communication, cooking, reflection, naming, and purchase research.
 
 Good agent work depends on more than a capable model. It also needs a clear method: the right questions, trustworthy evidence, explicit constraints, and an output that is ready to use.
 
@@ -38,6 +38,7 @@ Then install one or more category plugins:
 
 ```bash
 claude plugin install code@ankitgoyal-skills
+claude plugin install communication@ankitgoyal-skills
 claude plugin install food@ankitgoyal-skills
 claude plugin install knowledge@ankitgoyal-skills
 claude plugin install naming@ankitgoyal-skills
@@ -84,7 +85,13 @@ I built these skills to make recurring work with coding agents more deliberate, 
 
 Together, they turn repository evidence into messages that are useful after the immediate task is over.
 
-### #3: Recommendations Need Evidence and Constraints
+### #3: Work Becomes Visible Through Deliberate Communication
+
+**The problem:** Individual contributors often hold the most complete picture of their work, while managers, mentors, and teammates see only fragments. A generic status message can hide decisions, uncertainty, risks, and the help that would move the work forward.
+
+**The fix** is [`work-update`](./skills/communication/work-update/SKILL.md). It uses an adaptive interview to build a shared understanding of the work, challenges vague or unsupported claims, and produces an audience-specific message that is ready to share.
+
+### #4: Recommendations Need Evidence and Constraints
 
 **The problem:** Recommendations can sound convincing while hiding assumptions, comparing mismatched options, or relying on stale and weak evidence. That matters whether the decision is what to cook, what to buy, or what to name a project.
 
@@ -96,7 +103,7 @@ Together, they turn repository evidence into messages that are useful after the 
 
 Each workflow distinguishes what is known, what is inferred, and what still needs confirmation.
 
-### #4: Consuming a Source Is Not the Same as Understanding It
+### #5: Consuming a Source Is Not the Same as Understanding It
 
 **The problem:** Highlights and summaries preserve information, but they do not necessarily capture what you think about it. Without reflection, the source's claims, your response, and the agent's synthesis can blur together.
 
@@ -129,6 +136,14 @@ Skills for software development workflows.
 - **[app-ux-writing](./skills/code/app-ux-writing/SKILL.md):** Plan, write, review, and implement app interface copy using WWDC UX writing principles.
 - **[git-commit-message](./skills/code/git-commit-message/SKILL.md):** Draft or revise precise Conventional Commit messages from the available intent and repository evidence.
 - **[pull-request-message](./skills/code/pull-request-message/SKILL.md):** Draft or revise reviewer-oriented pull request and merge request descriptions using a What / Why / How structure.
+
+### Communication
+
+Skills for professional and workplace communication.
+
+**Model-invoked**
+
+- **[work-update](./skills/communication/work-update/SKILL.md):** Interview the user about their work, confirm a shared understanding, and draft an audience-specific update.
 
 ### Food
 

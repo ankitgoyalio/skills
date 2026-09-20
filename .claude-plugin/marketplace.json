@@ -16,6 +16,14 @@
       ]
     },
     {
+      "name": "communication",
+      "source": "./",
+      "description": "Skills for professional and workplace communication.",
+      "skills": [
+        "./skills/communication/work-update"
+      ]
+    },
+    {
       "name": "food",
       "source": "./",
       "description": "Skills for cooking and recipe planning.",

@@ -32,6 +32,14 @@
       ]
     },
     {
+      "name": "health",
+      "source": "./",
+      "description": "Skills for personal health interviews and preventive care planning.",
+      "skills": [
+        "./skills/health/health-interview"
+      ]
+    },
+    {
       "name": "knowledge",
       "source": "./",
       "description": "Skills for reflection and personal knowledge management.",

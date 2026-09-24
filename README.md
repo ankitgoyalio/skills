@@ -2,7 +2,7 @@
 
 [![skills.sh](https://skills.sh/b/ankitgoyalio/skills)](https://skills.sh/ankitgoyalio/skills)
 
-My collection of reusable agent skills for software work, workplace communication, cooking, reflection, naming, and purchase research.
+My collection of reusable agent skills for software work, workplace communication, cooking, personal health, reflection, naming, and purchase research.
 
 Good agent work depends on more than a capable model. It also needs a clear method: the right questions, trustworthy evidence, explicit constraints, and an output that is ready to use.
 
@@ -40,6 +40,7 @@ Then install one or more category plugins:
 claude plugin install code@ankitgoyal-skills
 claude plugin install communication@ankitgoyal-skills
 claude plugin install food@ankitgoyal-skills
+claude plugin install health@ankitgoyal-skills
 claude plugin install knowledge@ankitgoyal-skills
 claude plugin install naming@ankitgoyal-skills
 claude plugin install shopping@ankitgoyal-skills
@@ -152,6 +153,14 @@ Skills for cooking and recipe planning.
 **Model-invoked**
 
 - **[cook-with-what-you-have](./skills/food/cook-with-what-you-have/SKILL.md):** Find established YouTube recipes and adapt them to the ingredients and constraints you have.
+
+### Health
+
+Skills for personal health interviews and preventive care planning.
+
+**Model-invoked**
+
+- **[health-interview](./skills/health/health-interview/SKILL.md):** Interview adults about symptoms or prevention, check current guidance, and give care urgency and practical next steps.
 
 ### Knowledge
 

@@ -82,7 +82,7 @@ I built these skills to make recurring work with coding agents more deliberate, 
 **The fix** is to use:
 
 - [`git-commit-message`](./skills/code/git-commit-message/SKILL.md) for concise Conventional Commit messages that accurately describe one logical change.
-- [`pull-request-message`](./skills/code/pull-request-message/SKILL.md) for reviewer-oriented descriptions organized around what changed, why it matters, and how it was implemented.
+- [`pull-request-message`](./skills/code/pull-request-message/SKILL.md) for reviewer-oriented descriptions with a visual summary, before/after evidence, and merge risk.
 
 Together, they turn repository evidence into messages that are useful after the immediate task is over.
 
@@ -136,7 +136,7 @@ Skills for software development workflows.
 
 - **[app-ux-writing](./skills/code/app-ux-writing/SKILL.md):** Plan, write, review, and implement app interface copy using WWDC UX writing principles.
 - **[git-commit-message](./skills/code/git-commit-message/SKILL.md):** Draft or revise precise Conventional Commit messages from the available intent and repository evidence.
-- **[pull-request-message](./skills/code/pull-request-message/SKILL.md):** Draft or revise reviewer-oriented pull request and merge request descriptions using a What / Why / How structure.
+- **[pull-request-message](./skills/code/pull-request-message/SKILL.md):** Draft or revise pull request and merge request bodies using Summary / Evidence / Merge Danger, with compact visuals and explicit rollback risk.
 
 ### Communication
 

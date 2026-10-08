@@ -55,18 +55,22 @@ test("accepts the repository fixture", () => {
 });
 
 rejectsMutation("rejects a missing catalog entry", (root) => {
-  mutateJson(root, "skills.sh.json", (catalog) => catalog.groupings[0].skills.shift());
+  mutateJson(root, "skills.sh.json", (catalog) => {
+    catalog.groupings.find((group) => group.title === "Code").skills.shift();
+  });
 }, /missing published skill `app-ux-writing`/);
 
 rejectsMutation("rejects a duplicate catalog entry", (root) => {
   mutateJson(root, ".claude-plugin/marketplace.json", (catalog) => {
-    catalog.plugins[0].skills.push(catalog.plugins[0].skills[0]);
+    const plugin = catalog.plugins.find((plugin) => plugin.name === "code");
+    plugin.skills.push(plugin.skills[0]);
   });
 }, /skill path `.\/skills\/code\/app-ux-writing` appears more than once/);
 
 rejectsMutation("rejects a stale catalog entry", (root) => {
   mutateJson(root, ".claude-plugin/marketplace.json", (catalog) => {
-    catalog.plugins[0].skills[0] = "./skills/code/removed-skill";
+    const plugin = catalog.plugins.find((plugin) => plugin.name === "code");
+    plugin.skills[0] = "./skills/code/removed-skill";
   });
 }, /stale or unknown skill path `.\/skills\/code\/removed-skill`/);
 

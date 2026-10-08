@@ -37,6 +37,7 @@ claude plugin marketplace add ankitgoyalio/skills
 Then install one or more category plugins:
 
 ```bash
+claude plugin install apple@ankitgoyal-skills
 claude plugin install code@ankitgoyal-skills
 claude plugin install communication@ankitgoyal-skills
 claude plugin install food@ankitgoyal-skills
@@ -127,6 +128,16 @@ Run `npm test` for the validator's failure-case tests. If the Claude Code CLI is
 ## Reference
 
 The skills split on one axis: who can invoke them. **User-invoked** skills run only when you explicitly select them. **Model-invoked** skills may be selected by you or invoked automatically by a compatible agent when the task fits.
+
+### Apple
+
+Skills for Apple platform design and development.
+
+**Model-invoked**
+
+- **[ios-design](./skills/apple/ios-design/SKILL.md):** Design or review iPhone interfaces for navigation, adaptive layout, controls, accessibility, appearance, permissions, or system entry points.
+- **[ipados-design](./skills/apple/ipados-design/SKILL.md):** Design or review iPad interfaces for resizable windows, adaptive navigation, menu commands, keyboard and pointer input, Pencil, accessibility, or content transfer.
+- **[macos-design](./skills/apple/macos-design/SKILL.md):** Design or review Mac interfaces for menu commands, windows, toolbars, keyboard and pointer input, accessibility, appearance, or system integration.
 
 ### Code
 

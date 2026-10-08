@@ -136,6 +136,9 @@ Skills for software development workflows.
 
 - **[app-ux-writing](./skills/code/app-ux-writing/SKILL.md):** Plan, write, review, and implement app interface copy using WWDC UX writing principles.
 - **[git-commit-message](./skills/code/git-commit-message/SKILL.md):** Draft or revise precise Conventional Commit messages from the available intent and repository evidence.
+- **[ios-design](./skills/code/ios-design/SKILL.md):** Design or review iPhone interfaces for navigation, adaptive layout, controls, accessibility, appearance, permissions, or system entry points.
+- **[ipados-design](./skills/code/ipados-design/SKILL.md):** Design or review iPad interfaces for resizable windows, adaptive navigation, menu commands, keyboard and pointer input, Pencil, accessibility, or content transfer.
+- **[macos-design](./skills/code/macos-design/SKILL.md):** Design or review Mac interfaces for menu commands, windows, toolbars, keyboard and pointer input, accessibility, appearance, or system integration.
 - **[pull-request-message](./skills/code/pull-request-message/SKILL.md):** Draft or revise pull request and merge request bodies using Summary / Evidence / Merge Danger, with compact visuals and explicit rollback risk.
 
 ### Communication

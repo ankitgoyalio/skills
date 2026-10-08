@@ -12,6 +12,9 @@
       "skills": [
         "./skills/code/app-ux-writing",
         "./skills/code/git-commit-message",
+        "./skills/code/ios-design",
+        "./skills/code/ipados-design",
+        "./skills/code/macos-design",
         "./skills/code/pull-request-message"
       ]
     },

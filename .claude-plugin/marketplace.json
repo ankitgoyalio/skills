@@ -22,7 +22,8 @@
       "skills": [
         "./skills/code/app-ux-writing",
         "./skills/code/git-commit-message",
-        "./skills/code/pull-request-message"
+        "./skills/code/pull-request-message",
+        "./skills/code/web-design"
       ]
     },
     {

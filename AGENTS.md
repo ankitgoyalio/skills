@@ -2,6 +2,7 @@
 
 Skills are organized into category folders under `skills/`:
 
+- `apple/`: Apple platform design and development
 - `code/`: software development workflows
 - `communication/`: professional and workplace communication
 - `food/`: cooking and recipe planning

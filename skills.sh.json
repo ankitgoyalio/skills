@@ -3,14 +3,20 @@
   "notGrouped": "bottom",
   "groupings": [
     {
+      "title": "Apple",
+      "description": "Skills for Apple platform design and development.",
+      "skills": [
+        "ios-design",
+        "ipados-design",
+        "macos-design"
+      ]
+    },
+    {
       "title": "Code",
       "description": "Skills for software development workflows.",
       "skills": [
         "app-ux-writing",
         "git-commit-message",
-        "ios-design",
-        "ipados-design",
-        "macos-design",
         "pull-request-message"
       ]
     },

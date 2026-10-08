@@ -6,15 +6,22 @@
   "description": "A collection of reusable agent skills grouped by purpose.",
   "plugins": [
     {
+      "name": "apple",
+      "source": "./",
+      "description": "Skills for Apple platform design and development.",
+      "skills": [
+        "./skills/apple/ios-design",
+        "./skills/apple/ipados-design",
+        "./skills/apple/macos-design"
+      ]
+    },
+    {
       "name": "code",
       "source": "./",
       "description": "Skills for software development workflows.",
       "skills": [
         "./skills/code/app-ux-writing",
         "./skills/code/git-commit-message",
-        "./skills/code/ios-design",
-        "./skills/code/ipados-design",
-        "./skills/code/macos-design",
         "./skills/code/pull-request-message"
       ]
     },

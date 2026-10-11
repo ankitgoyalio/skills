@@ -21,6 +21,7 @@
       "description": "Skills for software development workflows.",
       "skills": [
         "./skills/code/app-ux-writing",
+        "./skills/code/design-taste-frontend",
         "./skills/code/git-commit-message",
         "./skills/code/pull-request-message",
         "./skills/code/web-design"

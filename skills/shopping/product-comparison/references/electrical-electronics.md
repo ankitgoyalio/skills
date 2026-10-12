@@ -1,6 +1,6 @@
 # Electrical and Electronics Comparisons
 
-Apply this reference to appliances, electrical products, electronics, accessories, and connected devices. Resolve the exact Indian model number and revision; visually similar products and regional variants can have different internals, bands, plugs, power requirements, warranties, and certifications.
+Apply this reference to appliances, electrical products, electronics, accessories, and connected devices. Resolve the exact listed model number and revision, including imported variants, and assess their suitability for the selected market. Visually similar products and regional variants can have different internals, bands, plugs, power requirements, warranties, and certifications.
 
 ## Gather product evidence
 
@@ -10,7 +10,7 @@ Capture, when relevant:
 - core performance specifications and the conditions under which they were measured;
 - operating voltage, plug type, rated power, energy consumption, battery, charging, and efficiency information;
 - device, operating-system, network, protocol, port, and accessory compatibility;
-- safety and energy certifications applicable to the exact model in India;
+- safety and energy certifications applicable to the exact model in the selected market;
 - manufacturer warranty, seller eligibility, service network, spare-parts outlook, and return policy;
 - software-support period, privacy or account dependencies, and ecosystem lock-in for connected products;
 - repairability, consumables, maintenance, and likely ownership costs when they materially affect the use case.
@@ -27,7 +27,7 @@ Check whether:
 - nominal capacity differs materially from usable capacity;
 - a performance mode changes power, noise, heat, battery, or longevity;
 - a certification applies to the exact model rather than the brand or product family;
-- warranty coverage depends on an authorized Indian seller or registration;
+- warranty coverage depends on an authorized seller in the selected market or registration;
 - imported variants lose local bands, voltage compatibility, service, or warranty.
 
 Do not treat a higher specification as a better outcome unless it matters to the buyer's use case. Flag compatibility and safety failures as constraints rather than averaging them away.

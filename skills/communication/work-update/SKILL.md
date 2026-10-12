@@ -5,7 +5,9 @@ description: Draft work updates for managers, mentors, teammates, or other stake
 
 # Work update
 
-Turn work the user understands privately into an accurate message its recipient can understand and act on. Interview before polishing; preserve the user's voice and the difference between facts, interpretations, and uncertainty.
+Turn work the user understands privately into an accurate message its recipient can understand and act on. Preserve the user's voice and the difference between facts, interpretations, and uncertainty.
+
+When the user explicitly asks for an immediate draft without questions, skip the interview and summary confirmation. Proceed to "Draft and revise" using only the available facts; report consequential gaps or assumptions in its drafting notes. Otherwise, interview before polishing and follow the steps below.
 
 ## Establish the brief
 
@@ -47,9 +49,7 @@ A branch is complete when it has a substantive answer, the user explicitly leave
 
 Present a compact structured summary covering work state, significance, evidence, decisions, risks, dependencies, next steps, desired recipient response, and unresolved uncertainty. Identify the workspace evidence used. Ask the user to confirm or correct the summary before drafting.
 
-When the user explicitly asks for an immediate draft without questions, respect that choice: briefly identify consequential gaps or assumptions, then draft only from the available facts.
-
-Shared understanding is confirmed only by the user's explicit approval of the current summary. Corrections replace the affected understanding and require confirmation again.
+For the interview route, shared understanding is confirmed only by the user's explicit approval of the current summary. Corrections replace the affected understanding and require confirmation again.
 
 ## Draft and revise
 
@@ -61,7 +61,7 @@ Draft in the user's voice and fit the actual purpose rather than forcing a unive
 
 Include evidence or links when they help the recipient verify, review, or act. Phrase difficult information constructively while preserving its substance and urgency. Intentionally omit internal detail that does not serve this recipient.
 
-Before presenting the draft, check it against the confirmed understanding for factual support, visible significance, clear next steps or ask, appropriate candor, and audience-channel fit. Correct every discrepancy found.
+Before presenting the draft, check it against the confirmed understanding, or the available facts for an immediate draft, for factual support, visible significance, clear next steps or ask, appropriate candor, and audience-channel fit. Correct every discrepancy found.
 
 If actionable caveats remain—unverified claims, unresolved uncertainty, sensitive-detail handling, or material omissions—state them briefly as drafting notes. Otherwise omit the notes. Isolate the final message so it is ready to paste.
 

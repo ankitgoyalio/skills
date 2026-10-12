@@ -1,6 +1,6 @@
 # Food and Beverage Comparisons
 
-Apply this reference to packaged foods, beverages, supplements, and other consumables. Use the exact Indian label or manufacturer data for the exact flavor, size, and formulation; formulations can differ by market and change over time.
+Apply this reference to packaged foods, beverages, supplements, and other consumables. Use the label or manufacturer data for the exact flavor, size, and formulation offered in the selected market, including imports. Formulations can differ by market and change over time.
 
 ## Gather label evidence
 
@@ -18,7 +18,7 @@ Use readable label images when the text listing is incomplete. Treat retailer-tr
 
 ## Test marketing and health claims
 
-Compare front-of-pack and advertising claims with the ingredient list, nutrition panel, serving basis, and applicable current Indian regulatory definitions. Check current official sources when a claim depends on a legal threshold or certification.
+Compare front-of-pack and advertising claims with the ingredient list, nutrition panel, serving basis, and current regulatory definitions applicable to the selected market. Check current official sources when a claim depends on a legal threshold or certification.
 
 Distinguish:
 

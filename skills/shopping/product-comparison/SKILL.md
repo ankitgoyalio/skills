@@ -7,13 +7,6 @@ description: Research and compare buyer-facing products using current web eviden
 
 Produce three connected outcomes: a factual comparison, a weighted scorecard, and a recommendation grounded in the buyer's use case. Treat current price, availability, seller details, specifications, ingredients, claims, and policies as live facts that require web research and citations.
 
-## Route the comparison
-
-- For food, beverages, supplements, or packaged consumables, read [references/food-beverages.md](references/food-beverages.md).
-- For electrical appliances, electronics, accessories, or devices, read [references/electrical-electronics.md](references/electrical-electronics.md).
-- For another category, apply the shared workflow and derive category-specific criteria from authoritative sources. Explain any material criteria that are not obvious.
-- When products cross categories, read every applicable reference and keep category-specific claims separate.
-
 ## Ground the decision
 
 At the start, identify or ask for the missing preferences that could materially change the weights or recommendation. Ask one concise batch rather than an open-ended questionnaire. Depending on the purchase, establish:
@@ -24,7 +17,14 @@ At the start, identify or ask for the missing preferences that could materially 
 - dietary restrictions, allergies, compatibility, dimensions, ecosystem, or other relevant constraints;
 - market and delivery location when they are not India.
 
-Default to the Indian market and INR only when the user does not name another market. Do not repeat questions the user has already answered. If the user declines to clarify, state reasonable assumptions and show how they affect the weights.
+Default to the Indian market and INR only when the user does not name another market. Use the selected market's currency for prices. Do not repeat questions the user has already answered. If the user declines to clarify, state reasonable assumptions and show how they affect the weights.
+
+## Route the comparison
+
+- For food, beverages, supplements, or packaged consumables, read [references/food-beverages.md](references/food-beverages.md).
+- For electrical appliances, electronics, accessories, or devices, read [references/electrical-electronics.md](references/electrical-electronics.md).
+- For another category, apply the shared workflow and derive category-specific criteria from authoritative sources. Explain any material criteria that are not obvious.
+- When products cross categories, read every applicable reference and keep category-specific claims separate.
 
 ## Establish comparable products
 
@@ -43,10 +43,12 @@ Search the live web. Open the supplied links and corroborate material facts rath
 3. the manufacturer or brand store
 4. other reputable Indian retailers or marketplaces
 
+For another market, check the manufacturer or brand store and reputable retailers serving the buyer's delivery location.
+
 For claims and product facts, prefer evidence in this order:
 
 1. manufacturer documentation, packaging, manuals, and specification sheets;
-2. applicable Indian regulators, standards bodies, and certification databases;
+2. regulators, standards bodies, and certification databases applicable to the selected market;
 3. retailer listings for the exact variant;
 4. independent professional testing and reviews;
 5. aggregated user-review patterns.

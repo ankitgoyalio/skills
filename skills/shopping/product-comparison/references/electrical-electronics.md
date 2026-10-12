@@ -43,10 +43,9 @@ Derive weights from the user's goals. Candidate criteria include:
 - ease of use, ergonomics, and installation;
 - warranty, serviceability, repairability, and software support;
 - features and included accessories;
-- listed price and value;
-- seller and availability confidence.
+- listed price and value.
 
-Keep seller risk separate from intrinsic product quality when possible. Treat a hard incompatibility, unsafe power mismatch, or missing must-have feature as a disqualifier rather than allowing unrelated strengths to offset it.
+Keep seller risk and availability confidence outside the product score. Use them to qualify the purchase recommendation and identify a suitable listing. Treat a hard incompatibility, unsafe power mismatch, or missing must-have feature as a disqualifier rather than allowing unrelated strengths to offset it.
 
 ## Ownership caveats
 

@@ -43,7 +43,7 @@ Derive weights from the user's goals. Candidate criteria include:
 - availability, pack practicality, and shelf-life fit;
 - manufacturer transparency and credible certification.
 
-Do not collapse "healthiness" into one universal score. State which nutrition dimensions matter for this buyer and why. Treat a known allergen conflict or non-negotiable dietary mismatch as a disqualifier rather than averaging it away.
+Do not collapse "healthiness" into one universal score. State which nutrition dimensions matter for this buyer and why. Apply the shared eligibility gate before scoring.
 
 ## Safety boundary
 

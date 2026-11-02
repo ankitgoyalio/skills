@@ -30,7 +30,7 @@ Check whether:
 - warranty coverage depends on an authorized seller in the selected market or registration;
 - imported variants lose local bands, voltage compatibility, service, or warranty.
 
-Do not treat a higher specification as a better outcome unless it matters to the buyer's use case. Flag compatibility and safety failures as constraints rather than averaging them away.
+Do not treat a higher specification as a better outcome unless it matters to the buyer's use case.
 
 ## Choose scorecard criteria
 
@@ -45,7 +45,7 @@ Derive weights from the user's goals. Candidate criteria include:
 - features and included accessories;
 - listed price and value.
 
-Keep seller risk and availability confidence outside the product score. Use them to qualify the purchase recommendation and identify a suitable listing. Treat a hard incompatibility, unsafe power mismatch, or missing must-have feature as a disqualifier rather than allowing unrelated strengths to offset it.
+Keep seller risk and availability confidence outside the product score. Use them to qualify the purchase recommendation and identify a suitable listing. Apply the shared eligibility gate before scoring.
 
 ## Ownership caveats
 

@@ -61,6 +61,8 @@ Draft in the user's voice and fit the actual purpose rather than forcing a unive
 
 Include evidence or links when they help the recipient verify, review, or act. Phrase difficult information constructively while preserving its substance and urgency. Intentionally omit internal detail that does not serve this recipient.
 
+For each ask, name the decision or action, who it is for, and any known deadline or dependency. Give the recipient enough context to act from the message: the options, the user's supported preference, and material consequences. Treat a proposed date or preference as a proposal until confirmed; link supporting detail rather than making the link the entire ask.
+
 Before presenting the draft, check it against the confirmed understanding, or the available facts for an immediate draft, for factual support, visible significance, clear next steps or ask, appropriate candor, and audience-channel fit. Correct every discrepancy found.
 
 If actionable caveats remain—unverified claims, unresolved uncertainty, sensitive-detail handling, or material omissions—state them briefly as drafting notes. Otherwise omit the notes. Isolate the final message so it is ready to paste.

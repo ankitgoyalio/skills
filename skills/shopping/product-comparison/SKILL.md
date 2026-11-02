@@ -84,7 +84,9 @@ Summarize repeated review themes only after checking recency, exact-variant rele
 
 ## Build the scorecard
 
-Use a 0–10 score for each criterion and weights totaling 100%. Derive the criteria and weights from the buyer's stated use case; do not use one fixed weighting across categories. Explain the weighting in one sentence and give the buyer's must-haves enough weight to affect the result.
+First check each product against the buyer's must-haves and deal-breakers. A confirmed failure makes it ineligible regardless of its total; unresolved evidence about a hard constraint leaves eligibility unverified. Keep those products visible with the reason, and rank only eligible products. Apply this gate across categories, including known allergen, dietary, compatibility, or safety conflicts, and a budget the buyer sets as a hard limit.
+
+For eligible products, use a 0–10 score for each criterion and weights totaling 100%. Derive criteria and weights from the buyer's stated use case. Explain the weighting in one sentence and define what low and high scores mean for each criterion. Tie each assigned score to cited evidence or a labeled judgment so the arithmetic is reproducible.
 
 Calculate each total as:
 
@@ -93,6 +95,8 @@ weighted total out of 10 = sum(criterion score × criterion weight) / 100
 ```
 
 Keep evidence confidence outside the product score so missing data is not mistaken for poor performance. Assign each product an overall confidence of High, Medium, or Low and explain any material gaps. Do not rank products when missing or conflicting evidence could plausibly reverse the result.
+
+When eligible totals are close or depend on an unsettled preference, recalculate with plausible weights consistent with the buyer's priorities. Report whether the winner changes and which tradeoff decides it. A preference-sensitive result needs a conditional recommendation. Finish the scorecard when eligibility is explicit, totals reproduce from the displayed scores and weights, and any unresolved ranking decision is visible.
 
 ## Deliver the decision
 

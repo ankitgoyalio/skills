@@ -43,7 +43,7 @@ Choose a compact representation suited to the change:
 - Mermaid for interactions or data flow; a diff sketch for an existing structure's changes.
 - A complete code block when the new shape needs surrounding context.
 
-Pair the visual with a short explanation. Use repository terminology, including `GLOSSARY.md` when available.
+Lead the explanation with the concrete problem and resulting behavior. Include the triggering case when it makes the change clear, and place the visual beside the explanation. Use repository terminology, including `GLOSSARY.md` when available.
 
 ## Evidence
 
@@ -55,10 +55,12 @@ Never invent screenshots, test execution, or results. Label illustrative pseudoc
 
 Classify reversibility: two-way means a practical rollback exists; one-way means effects cannot readily be undone. Note data loss or migration constraints where relevant.
 
-Describe the affected scope and plausible consequences, such as consumer breakage or responsive layout regressions. Ground risk claims in the actual diff.
+Trace affected consumers and contracts beyond the changed lines, such as callers, stored data, public interfaces, or published skill invocation. Name the failure that matters and the fact that prevents it. Cite the check or artifact supporting that fact; mark it unverified when evidence is missing. Keep cleared risks distinct from remaining risks.
 
 ## Deliver
 
 Return ready-to-paste Markdown without preamble. Honor repository-required template fields; otherwise use the structure above. Provide a title only when requested.
+
+Finish when every material change is represented, each outcome and safety claim has evidence or an explicit limitation, and the body describes the branch that would actually be submitted.
 
 Adapted from [Matt Pocock's PR skill](https://github.com/mattpocock/skills/blob/main/skills/engineering/pr/SKILL.md), which credits [Dex Horthy's show-me skill](https://github.com/humanlayer/skills/blob/main/plugins/show-me/skills/show-me/SKILL.md).

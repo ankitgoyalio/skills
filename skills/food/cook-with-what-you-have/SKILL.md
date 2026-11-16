@@ -45,7 +45,9 @@ Open the video page rather than relying on search snippets. Inspect the title, c
 
 Use at least two credible YouTube videos when resolving a dish's defining technique, an unfamiliar ingredient, or conflicting instructions. A written source may verify a detail that the video leaves unclear, but the recipe basis must remain a YouTube video. For food-safety temperatures, storage limits, allergen guidance, or other safety-critical claims, consult a current official food-safety or public-health source even when it is outside YouTube.
 
-Synthesize the recipe in original wording. Cite each source as a direct link to the YouTube video and identify its title and channel; add a timestamp when a relevant, stable timestamp is available. State whether the result follows one video, combines several, or adapts them. Never imply that an adapted recipe is copied exactly from a source. If no credible and sufficiently detailed YouTube recipe is available, say so instead of silently substituting a written recipe or inventing missing details.
+Research is complete when the accessed recipe material supports the ingredient quantities, sequence, and defining technique needed to cook the dish, with any substitutions or scaling identified as adaptations. A title, thumbnail, or search snippet alone cannot establish the method. If essential details remain inaccessible or conflicting, identify the gap and seek corroboration; leave the recipe incomplete when the gap cannot be resolved.
+
+Synthesize the recipe in original wording. Cite each source as a direct link to the YouTube video and identify its title and channel; add a timestamp when a relevant, stable timestamp is available. State what you accessed: description, transcript, video segments, or a creator's written recipe. Attribute visual observations only to segments you inspected. State whether the result follows one video, combines several, or adapts them. If no credible and sufficiently detailed YouTube recipe is available, report that limitation.
 
 ## Fit the recipe to the inventory
 

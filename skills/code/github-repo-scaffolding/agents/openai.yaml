@@ -1,0 +1,3 @@
+interface:
+  display_name: "GitHub Repository Scaffolding"
+  short_description: "Set up repositories and agent engineering workflows"

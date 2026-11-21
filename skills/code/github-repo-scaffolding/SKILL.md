@@ -23,7 +23,7 @@ Preserve existing files and history. When publishing a new remote, review and co
 
 ## 3. Set up the engineering workflow
 
-When the request includes agent-led engineering, or asks for the ReadRelay-style scaffold, read [Engineering setup](references/engineering-setup.md). Use it to set up project-local skills, GitHub Issues and triage, and domain documentation. A repository-only request ends with the baseline.
+When the request includes agent-led engineering, read [Engineering setup](references/engineering-setup.md). Use it to set up project-local skills, GitHub Issues and triage, and domain documentation. A repository-only request ends with the baseline.
 
 ## 4. Verify the scaffold
 

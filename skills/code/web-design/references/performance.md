@@ -4,6 +4,10 @@
 
 Use the project's existing performance budget and representative devices/network conditions. [Core Web Vitals](https://web.dev/articles/vitals) assess loading, responsiveness, and stability: good thresholds are LCP at most 2.5 seconds, INP at most 200 milliseconds, and CLS at most 0.1, evaluated at the 75th percentile with mobile and desktop segmented. These are performance guidance, not WCAG requirements. Field measurements describe real visits; lab traces diagnose individual runs. A lab score alone does not establish field performance.
 
+Before comparing an optimization, name the affected user journey and metric. Measure the baseline and changed version with the same build mode, content, device, network, and cache conditions. Confirm that both runs complete the intended work successfully; an error page or skipped interaction is not a faster version of the journey.
+
+For a before/after claim, repeat both versions under matched conditions, alternating their order when practical. Report the run count, median, and range with the result and retain the traces or measurement output. If the difference is within run-to-run variation, report no measurable improvement; if the conditions or completed work differ, report the comparison as inconclusive. A single diagnostic run can locate a bottleneck but leaves an improvement claim unverified.
+
 ## Images and fonts
 
 Reserve media space with intrinsic dimensions or an appropriate aspect ratio to reduce shifts. Supply responsive image candidates sized for the layout. Keep the LCP image discoverable and eagerly loaded; use `fetchpriority="high"` when evidence identifies it as critical. Lazy-load images outside the initial view rather than the LCP resource. See [LCP optimization](https://web.dev/articles/optimize-lcp).

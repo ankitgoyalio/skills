@@ -1,0 +1,5 @@
+# Branch rules
+
+1. **Inspect.** List repository-owned and inherited rulesets with `gh ruleset list --repo OWNER/REPO --parents`. Check active rules with `gh ruleset check BRANCH --repo OWNER/REPO` and classic protection through the [branch protection API](https://docs.github.com/en/rest/branches/branch-protection#get-branch-protection). For a default-branch change, verify the destination exists and inspect both rulesets targeting the default branch and rules matching the destination by name.
+2. **Edit protection.** Update the repository-owned ruleset that serves the same purpose, or create one if needed. Preserve unrelated rules, targets, bypass actors, and inherited protection. Use **Settings → Rules → Rulesets** or the [repository rulesets API](https://docs.github.com/en/rest/repos/rules#update-a-repository-ruleset). Change classic protection through its separate API only when authorized for that policy.
+3. **Verify.** Read back the targets, enforcement, and rules of any edited policy. Recheck active rulesets and classic protection on affected branches and report their combined effect, including inherited rules.

@@ -148,6 +148,7 @@ Skills for software development workflows.
 - **[app-ux-writing](./skills/code/app-ux-writing/SKILL.md):** Plan, write, review, and implement app interface copy using WWDC UX writing principles.
 - **[design-taste-frontend](./skills/code/design-taste-frontend/SKILL.md):** Design or review landing pages and portfolios with content-led visual direction, conditional references, and artifact-specific evidence.
 - **[git-commit-message](./skills/code/git-commit-message/SKILL.md):** Draft or revise precise Conventional Commit messages from the available intent and repository evidence.
+- **[github-repo-settings](./skills/code/github-repo-settings/SKILL.md):** Audit or configure repository features, pull request merge options, and default-branch protection on GitHub.
 - **[pull-request-message](./skills/code/pull-request-message/SKILL.md):** Draft or revise pull request and merge request bodies using Summary / Evidence / Merge Danger, with compact visuals and explicit rollback risk.
 - **[web-design](./skills/code/web-design/SKILL.md):** Design or review web interfaces for accessibility, semantic interaction, forms, responsive layouts, user preferences, and loading performance.
 

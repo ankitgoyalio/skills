@@ -1,0 +1,3 @@
+interface:
+  display_name: "GitHub Repository Settings"
+  short_description: "Audit and configure GitHub repository settings"

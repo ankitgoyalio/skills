@@ -1,0 +1,6 @@
+# Default-branch rules
+
+1. **Inspect existing protection.** Use `gh ruleset list --repo OWNER/REPO` and `gh ruleset check BRANCH --repo OWNER/REPO`. Check classic branch protection separately through the [branch protection API](https://docs.github.com/en/rest/branches/branch-protection#get-branch-protection). Distinguish repository-owned rules from rules inherited from an organization. Treat a permission failure as an unknown state.
+2. **Choose the branch policy.** For a solo PR workflow, propose requiring pull requests, resolved review conversations, and linear history. Block branch deletion and force pushes. Use the repository's allowed merge methods and require approvals or checks only when the project has reviewers or established checks that can satisfy them.
+3. **Apply a targeted change.** Use the [repository rulesets API](https://docs.github.com/en/rest/repos/rules#update-a-repository-ruleset) or the repository's **Settings → Rules → Rulesets**. Update the repository-owned ruleset that serves the same purpose, or create one if needed. Preserve its unrelated rules, targets, and bypass actors. Keep inherited rules in place.
+4. **Read back the result.** Verify the target, enforcement, and rule values on the updated policy, then check the effective rules on the branch. Report any inherited or classic protection that affects the result.
